@@ -382,7 +382,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>CryptoDevs DAO</title>
+        <title>BlueEyes DAO</title>
         <meta name="description" content="CryptoDevs DAO" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -392,7 +392,7 @@ export default function Home() {
           <h1 className={styles.title}>Welcome to BlueEye Devs!</h1>
           <div className={styles.description}>Welcome to the DAO!</div>
           <div className={styles.description}>
-            Your CryptoDevs NFT Balance: {nftBalance}
+            Your BlueEyes NFT Balance: {nftBalance}
             <br />
             Treasury Balance: {formatEther(treasuryBalance)} ETH
             <br />
